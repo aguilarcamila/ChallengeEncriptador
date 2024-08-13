@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!-- Enlace a la fuente Inter desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sección de entrada -->
+        <div class="input-section">
+            <h1>Ingrese el texto aquí</h1>
+            <textarea id="input-text" placeholder="Ingrese el texto..."></textarea>
+            <div class="button-group">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+            <div class="error-message" id="error-message"></div>
+        </div>
+        
+        <!-- Sección de salida -->
+        <div class="output-section">
+            <img src="Muñeco.png" alt="Muñeco" id="output-image">
+            <div class="result" id="output-text">Ningún mensaje fue encontrado</div>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        &copy; 2024 Camila Aguilar
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

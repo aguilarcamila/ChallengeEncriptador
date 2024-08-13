@@ -1,0 +1,134 @@
+/* Estilo general y tipografía */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    color: #2A2C37;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    height: 80%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Sección de entrada (izquierda) */
+.input-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    border-right: 1px solid #E5E5E5;
+}
+
+.input-section h1 {
+    font-size: 1.5rem;
+    color: #1A2E35;
+    margin-bottom: 20px;
+}
+
+textarea {
+    flex-grow: 1;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #2A2C37;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1A73E8;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #1558C4;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    height: 20px;
+}
+
+/* Sección de salida (derecha) */
+.output-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.output-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 1.2rem;
+    color: #1A2E35;
+    margin-bottom: 20px;
+    min-height: 60px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output-section button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1A73E8;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.output-section button:hover {
+    background-color: #1558C4;
+}
+
+/* Pie de página */
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #7A7F85;
+}
